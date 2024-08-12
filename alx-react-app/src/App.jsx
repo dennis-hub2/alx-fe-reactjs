@@ -3,13 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import WelcomeMessage from './components/WelcomeMessage'
+import React from 'react';
+import Header from './Header';
+import MainContent from './MainContent';
+import Footer from './Footer';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
+      <div>  
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -19,6 +23,11 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <WelcomeMessage />
+      <div>
+        <Header />
+        <MainContent />
+        <Footer />
+      </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
