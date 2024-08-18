@@ -8,6 +8,7 @@ import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
 import UserProfile from './components/UserProfile'
+import Counter from './components/counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,14 +26,8 @@ function App() {
         <UserProfile name="Bob" age="30" bio="Avid reader and coffee enthusiast" />
         <UserProfile name="Charlie" age="28" bio="Enjoys painting and playing the guitar" />
       </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
+      <Counter />
+      
       <Footer />
     </>
   )
