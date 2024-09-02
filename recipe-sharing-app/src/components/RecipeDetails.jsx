@@ -20,5 +20,6 @@ const RecipeDetails = () => {
     </div>
   );
 };
+<Route path="/recipe/:id" element={<RecipeDetails />} />
 
 export default RecipeDetails;
