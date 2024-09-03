@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import './App.css'
-import RegistrationForm from './components/RegistrationForm'
+import React from 'react';
+import FormikForm from './components/formikForm';
 
-function App() {
-
-
+const App = () => {
   return (
-    <>
-      <h1>Form Handling</h1>
-      <RegistrationForm />
-    </>
-  )
-}
+    <div>
+      <h1>User Registration Form</h1>
+      <FormikForm />
+    </div>
+  );
+};
 
-export default App
+export default App;
