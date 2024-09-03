@@ -4,15 +4,16 @@ import RecipeList from './components/RecipeList';
 import AddRecipeForm from './components/AddRecipeForm';
 import RecipeDetails from './components/RecipeDetails';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Recipe Sharing App</h1>
-      <AddRecipeForm />
-      <RecipeList />
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1>Recipe Sharing App</h1>
+//       <AddRecipeForm />
+//       <RecipeList />
+//       <RecipeDetails />
+//     </div>
+//   );
+// }
 const App = () => {
   return (
     <Router>
