@@ -1,4 +1,5 @@
   // RecipeList component
+  import React from 'react';
   import { useRecipeStore } from './recipeStore';
 
   const RecipeList = () => {
