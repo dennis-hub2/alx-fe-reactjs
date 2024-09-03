@@ -22,3 +22,4 @@
       </div>
     );
   };
+export default RecipeDetails;
