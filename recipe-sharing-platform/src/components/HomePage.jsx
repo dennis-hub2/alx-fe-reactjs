@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import data from "../data.json"; // Import the mock data
 
 const HomePage = () => {
